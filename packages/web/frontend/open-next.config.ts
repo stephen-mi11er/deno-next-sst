@@ -1,10 +1,8 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-    /* config options here */
+import type { OpenNextConfig } from '@opennextjs/aws/types/open-next.js';
+const config = {
     default: {
         runtime: 'deno',
-    }
-};
+    },
+} satisfies OpenNextConfig;
 
-export default nextConfig;
+export default config;
