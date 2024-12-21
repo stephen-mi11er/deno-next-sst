@@ -1,0 +1,1 @@
+export {default as DomainNameGenerator} from './DomainNameGenerator.ts'

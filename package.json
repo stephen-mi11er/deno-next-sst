@@ -1,0 +1,12 @@
+{
+  "name": "deno-next-sst",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "sst deploy",
+    "deploy": "sst deploy --stage"
+  },
+  "workspaces": [
+    "packages/**/*"
+  ]
+}

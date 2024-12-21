@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "dev": "sst dev",
+    "deploy": "sst deploy --stage",
+    "destroy": "sst remove --stage"
+  },
+  "nodeModulesDir": "auto",
+  "unstable": ["unsafe-proto"],
+  "workspace": ["./packages/web/frontend"],
+  "imports": {
+    "sst": "npm:sst@3.4.27"
+  }
+}
